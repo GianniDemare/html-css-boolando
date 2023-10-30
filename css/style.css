@@ -1,7 +1,113 @@
 /* CSS RESET */ 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* SELEZIONE ID */ 
+
+#logo{
+    width: 180px;
+    position: relative;
+    left: 50%;
+    padding: 25px;
+    
+}
+
+
 
 /* SELEZIONE TAG */ 
 
+header{
+    background-color: rgb(255, 105, 0);
+    
+    
+}
+
+main{
+    margin: 0 auto;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+
+footer{
+    background-color: black;
+    padding: 20px;
+    
+    
+}
+
+h2{
+    text-align: center;
+    padding: 50px
+}
+
+s{
+    color: black;
+}
+
+i{
+    color: white;
+}
+
+
+
+
 /* SELEZIONE CLASSI */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.container2{
+    max-width: 350px;
+    flex-direction: column;
+    display: flex;
+    
+    border: 1px solid rgb(232, 232, 232);
+    margin: 10px;
+    
+}
+
+.bg-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.bg-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.img-size{
+    width: 100%;
+}
+
+
+.m-10{
+    margin: 10px;
+    
+}
+
+.c-white{
+    color: white;
+}
+
+.c-red{
+    color: red;
+}
+
+
+
